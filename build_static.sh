@@ -31,7 +31,7 @@ git clone https://github.com/baresip/baresip.git
 cd baresip;
 
 make LIBRE_SO=../re LIBREM_PATH=../rem STATIC=1 \
-    MODULES="opus stdio ice menu g711 turn stun uuid auloop contact" \
+    MODULES="opus stdio ice menu g711 turn stun uuid account auloop contact" \
     EXTRA_CFLAGS="-I ../my_include" EXTRA_LFLAGS="$my_extra_lflags -L ../opus"
     
 cp baresip /mnt/baresip
